@@ -17,7 +17,7 @@ let connection = mysql.createConnection({
     database: 'heroku_d4f41e17692b970'
 });
 
-app.listen(process.evn.PORT || 3000, () => {
+app.listen(process.env.PORT, () => {
     console.log('node express node work on 3000');
 });
 
