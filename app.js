@@ -12,9 +12,9 @@ const nodemailer = require('nodemailer');
 
 let connection = mysql.createConnection({
     host: 'eu-cdbr-west-01.cleardb.com',
-    user: 'ba9751ba8a03f6',
-    password: 'a30229a0',
-    database: 'heroku_d4f41e17692b970'
+    user: 'b2b5d697ad3162',
+    password: 'c03c2dbf',
+    database: 'heroku_465713f8b727ab7'
 });
 
 app.listen(process.env.PORT, () => {
